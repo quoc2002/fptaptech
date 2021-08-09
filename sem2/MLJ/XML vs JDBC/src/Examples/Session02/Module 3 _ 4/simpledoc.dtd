@@ -1,0 +1,199 @@
+<!--
+SimpleDoc DTD
+-->
+
+<!-- ===========================================================================
+               Parameter Entities
+     =========================================================================== -->
+
+<!-- Attributes used in all elements -->
+<!ENTITY % common.atts "
+        id        ID        #IMPLIED
+        class     CDATA     #IMPLIED
+        xml:space (default | preserve) 'default'
+">
+
+<!-- Inline elements -->
+<!-- Block and complex elements -->
+<!ENTITY % block.group "
+          author
+        | blockquote
+        | codelisting
+        | example
+        | figure
+        | graphic
+        | list
+        | note
+        | para
+        | remark
+">
+
+<!ENTITY % inline.group "
+          acronym
+        | citation
+        | command
+        | date
+        | emphasis
+        | filename
+        | firstterm
+        | literal
+        | quote
+        | ulink
+        | xref
+">
+
+<!-- ===========================================================================
+               Hierarchical Elements
+     =========================================================================== -->
+
+<!-- The document element -->
+<!ELEMENT doc (title, (%block.group;)*, section+)>
+<!ATTLIST doc %common.atts;>
+
+<!-- Section to break up the document -->
+<!ELEMENT section (title, (%block.group;)*, section*)>
+<!ATTLIST section %common.atts;>
+
+<!-- ===========================================================================
+                 Block Elements
+     =========================================================================== -->
+
+<!-- place to put the author's name -->
+<!ELEMENT author #PCDATA>
+<!ATTLIST author %common.atts;>
+
+<!-- region of quoted text -->
+<!ELEMENT blockquote (para+)>
+<!ATTLIST blockquote %common.atts;>
+
+<!-- formal codelisting (adds title) -->
+<!ELEMENT example (title, codelisting)>
+<!ATTLIST example %common.atts;>
+
+<!-- formal picture (adds title) -->
+<!ELEMENT figure (title, graphic)>
+<!ATTLIST figure %common.atts;>
+
+<!-- out-of-flow note -->
+<!ELEMENT footnote (para+)>
+<!ATTLIST footnote %common.atts;>
+
+<!-- picture -->
+<!ELEMENT graphic EMPTY>
+<!ATTLIST graphic
+        fileref   CDATA     #REQUIRED
+        %common.atts;
+>
+
+<!-- sequence of items -->
+<!ELEMENT list (term?, listitem)+>
+<!ATTLIST list
+    type      (numbered|bulleted|definition)      "numbered"
+    %common.atts;
+>
+
+<!-- component of a list -->
+<!ELEMENT listitem (%block.group;)+>
+<!ATTLIST listitem %common.atts;>
+
+<!-- in-flow note -->
+<!ELEMENT note (para+)>
+<!ATTLIST note %common.atts;>
+
+<!-- basic paragraph -->
+<!ELEMENT para (#PCDATA | %inline.group; | footnote)*>
+<!ATTLIST para %common.atts;>
+
+<!-- code listing -->
+<!ELEMENT codelisting (#PCDATA | %inline.group;)*>
+<!ATTLIST codelisting
+    xml:space (preserve) #FIXED 'preserve'
+    %common.atts;
+>
+
+<!-- visible comment -->
+<!ELEMENT remark (#PCDATA | %inline.group;)*>
+<!ATTLIST remark %common.atts;>
+
+<!-- document or section label -->
+<!ELEMENT title (#PCDATA | %inline.group;)*>
+<!ATTLIST title %common.atts;>
+
+<!-- term in a definition list -->
+<!ELEMENT term (#PCDATA | %inline.group;)*>
+<!ATTLIST term %common.atts;>
+
+<!-- ===========================================================================
+                 Inline Elements
+     =========================================================================== -->
+
+<!ENTITY % inline.content "#PCDATA">
+
+<!ELEMENT acronym %inline.content;>
+<!ATTLIST acronym %common.atts;>
+
+<!ELEMENT citation %inline.content;>
+<!ATTLIST citation %common.atts;>
+
+<!ELEMENT command %inline.content;>
+<!ATTLIST command %common.atts;>
+
+<!ELEMENT date %inline.content;>
+<!ATTLIST date %common.atts;>
+
+<!ELEMENT emphasis %inline.content;>
+<!ATTLIST emphasis %common.atts;>
+
+<!ELEMENT filename %inline.content;>
+<!ATTLIST filename %common.atts;>
+
+<!ELEMENT firstterm %inline.content;>
+<!ATTLIST firstterm %common.atts;>
+
+<!ELEMENT literal %inline.content;>
+<!ATTLIST literal %common.atts;>
+
+<!ELEMENT quote %inline.content;>
+<!ATTLIST quote %common.atts;>
+
+<!ELEMENT ulink %inline.content;>
+<!ATTLIST ulink
+        href      CDATA   #REQUIRED
+        %common.atts;
+>
+
+<!ELEMENT xref EMPTY>
+<!ATTLIST xref 
+        linkend   ID      #REQUIRED
+        %common.atts;
+>
+
+<!-- ===========================================================================
+                 Useful Entities
+     =========================================================================== -->
+
+<!ENTITY % isolat1
+    PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN//XML"
+    "isolat1.ent"
+>
+%isolat1;
+<!ENTITY % isolat2
+    PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN//XML"
+    "isolat2.ent"
+>
+%isolat2;
+<!ENTITY % isomath
+    PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN//XML"
+    "isoamso.ent"
+>
+%isomath;
+<!ENTITY % isodia
+    PUBLIC "ISO 8879:1986//ENTITIES Diacritical Marks//EN//XML"
+    "isodia.ent"
+>
+%isodia;
+<!ENTITY % isogreek
+    PUBLIC "ISO 8879:1986//ENTITIES Greek Symbols//EN//XML"
+    "isogrk3.ent"
+>
+%isogreek;

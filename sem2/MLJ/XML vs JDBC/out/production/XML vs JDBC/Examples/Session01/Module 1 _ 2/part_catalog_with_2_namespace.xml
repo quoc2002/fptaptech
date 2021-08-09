@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<part-catalog xmlns:nw="http://www.nutware.com/" xmlns="http://www.bobco.com/" >
+  <nw:entry nw:number="1327">
+    <nw:description>torque-balancing hexnut</nw:description>
+  </nw:entry>
+  <part id="555">
+    <name>type 4 wingnut</name>
+  </part>
+</part-catalog>

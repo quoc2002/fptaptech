@@ -1,0 +1,11 @@
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\MyCSharpApplication.cs
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\StudentManagement.exe.config
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\StudentManagement.exe
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\StudentManagement.pdb
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\MyFirstApplication.exe
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\bin\Debug\MyFirstApplication.pdb
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\obj\Debug\StudentManagement.csproj.AssemblyReference.cache
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\obj\Debug\StudentManagement.csproj.CoreCompileInputs.cache
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\obj\Debug\StudentManagement.csproj.CopyComplete
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\obj\Debug\StudentManagement.exe
+D:\fptaptech\sem2\MyFirstApplication\StudentManagement\obj\Debug\StudentManagement.pdb

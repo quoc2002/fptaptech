@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="chao.xsl"?>
+  <ChaoHoi>
+     <chao>
+       Chao ban, ban co khoe khong?
+     </chao>
+  </ChaoHoi>

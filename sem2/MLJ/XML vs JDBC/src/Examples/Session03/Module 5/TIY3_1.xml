@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="appeal.css"?>
+<!DOCTYPE appeal 
+[	<!ELEMENT appeal
+	(leave_Appeal?|Sust_appeal?)>
+		<!ELEMENT leave_Appeal
+		(criminal?|civil?|year+|No_of_filed+|No_of_listed+|No_of_pending+|No_of_dealt+)>
+			<!ELEMENT criminal (#PCDATA)>
+			<!ELEMENT civil (#PCDATA)>
+			<!ELEMENT year (#PCDATA)>
+			<!ELEMENT No_of_filed (#PCDATA)>
+			<!ELEMENT No_of_listed (#PCDATA)>
+			<!ELEMENT No_of_pending (#PCDATA)>
+			<!ELEMENT No_of_dealt (#PCDATA)>
+]>
+
+	
+<appeal>
+	<P>
+		<H16>Application for leave to appeal</H16>
+		<H46>Substantive appeal</H46>
+		<H56>CASES IN THE COURT OF FINAL APPEAL</H56>
+		<leave_Appeal>
+			<C1><criminal>Criminal</criminal></C1>
+			<H11><year>1997</year>	</H11>
+			<H12>No. of cases filled </H12>
+			<H13>No. of cases listed </H13>
+			<H14>No. of cases pending </H14>
+			<H15>No. of cases dealt with</H15>
+			<T11><No_of_filed>  13</No_of_filed> </T11>
+			<T12><No_of_listed> 5</No_of_listed></T12>
+			<T13><No_of_pending> 0</No_of_pending></T13>
+			<T14><No_of_dealt> 8</No_of_dealt> </T14>
+		</leave_Appeal>
+	</P>
+
+
+	<P>	
+		<leave_Appeal>	
+			<criminal></criminal>
+			<H2><year>1998</year>      </H2>
+			<T51><No_of_filed> 32</No_of_filed> </T51>
+			<T52><No_of_listed> 8</No_of_listed></T52>
+			<T53><No_of_pending> 0</No_of_pending></T53>
+			<T54><No_of_dealt> 24</No_of_dealt> </T54>
+		</leave_Appeal>	
+	</P>	
+	
+	<P>
+		<leave_Appeal>
+		<C2>	<civil>Civil</civil></C2>
+			<H42><year>1997</year>	</H42>
+			<H21>No. of cases filled </H21>
+			<H22>No. of cases listed </H22>
+			<H23>No. of cases pending </H23>
+			<H24>No. of cases dealt with </H24>
+			<T21><No_of_filed> 3</No_of_filed> </T21>
+			<T22><No_of_listed> 1</No_of_listed></T22>
+			<T23><No_of_pending> 0</No_of_pending></T23>
+			<T24><No_of_dealt> 2</No_of_dealt></T24>
+		</leave_Appeal>
+	</P>
+	
+	<P>	
+		<leave_Appeal>	
+			<civil></civil>
+			<H43><year>1998</year>      </H43>
+			<T61><No_of_filed> 23</No_of_filed> </T61>
+			<T62><No_of_listed> 1</No_of_listed> </T62>
+			<T63><No_of_pending>1</No_of_pending></T63>
+			<T64><No_of_dealt> 21</No_of_dealt></T64>
+		</leave_Appeal>	
+	</P>	
+
+	<P>
+		<Sust_appeal>
+			<C3><criminal>Criminal</criminal></C3>
+			<H17>No. of cases filled </H17>
+			<H18>No. of cases listed </H18>
+			<H19>No. of cases pending </H19>
+			<H20>No. of cases dealt with </H20>
+			<H3><year>1997</year>	</H3>
+			<T31>	<No_of_filed> 1</No_of_filed> </T31>
+			<T32><No_of_listed> 1</No_of_listed></T32>
+			<T33><No_of_pending> 0</No_of_pending></T33>
+			<T34><No_of_dealt> 0</No_of_dealt></T34>
+		</Sust_appeal>
+	</P>
+
+	<P>
+		<Sust_appeal>
+			<criminal></criminal>
+			<H4><year>1998</year>		</H4>
+			<T71><No_of_filed> 6</No_of_filed> </T71>
+			<T72><No_of_listed> 1</No_of_listed></T72>
+			<T73><No_of_pending> 2</No_of_pending></T73>
+			<T74><No_of_dealt> 3</No_of_dealt></T74>			
+		</Sust_appeal>
+	</P>
+
+	<P>
+		<Sust_appeal>
+			<C4><civil>Civil</civil></C4>
+			<H25>No. of cases filled </H25>
+			<H26>No. of cases listed </H26>
+			<H27>No. of cases pending </H27>
+			<H28>No. of cases dealt with </H28>
+			<H31><year>1997</year>	</H31>
+			<T41><No_of_filed> 4</No_of_filed>	</T41>
+			<T42><No_of_listed> 1</No_of_listed></T42>
+			<T43><No_of_pending> 2</No_of_pending></T43>
+			<T44><No_of_dealt> 1</No_of_dealt></T44>
+		</Sust_appeal>
+	</P>
+
+	<P>
+		<Sust_appeal>
+			<civil></civil>
+			<H32><year>1998</year>		</H32>
+			<T81><No_of_filed> 27</No_of_filed>	</T81>
+			<T82><No_of_listed> 8</No_of_listed></T82>
+			<T83><No_of_pending> 5</No_of_pending></T83>
+			<T84><No_of_dealt> 14</No_of_dealt></T84>
+		</Sust_appeal>
+	</P>
+</appeal>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE SaleDetails SYSTEM "SalesDetails_dtd.dtd">
+<SaleDetails>
+    <Sale>
+        <BillNumber>4568</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&LS;</Name>
+            <Code>2323</Code>
+            <Quantity>1</Quantity>
+            <Price>200</Price>
+            <Discount>10</Discount>
+            <Total>180</Total>
+        </Item>
+        <Payment Mode="Cash">
+            <CardName Type="Credit">&IC;</CardName>
+            <CustomerName>Allan</CustomerName>
+            <CardNumber>99044993</CardNumber>
+            <AccountNumber>77688906</AccountNumber>
+            <GrandTotal>180</GrandTotal>
+        </Payment>
+    </Sale>
+    <Sale>
+        <BillNumber>4568</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Footwear">Nike Running Shoes</Name>
+            <Code>8895</Code>
+            <Quantity>1</Quantity>
+            <Price>149</Price>
+            <Discount>15</Discount>
+            <Total>1126</Total>
+        </Item>
+        <Payment Mode="Card">
+            <CardName Type="Debit">&HD;</CardName>
+            <CustomerName>Henry</CustomerName>
+            <CardNumber>8904798</CardNumber>
+            <AccountNumber>8944390</AccountNumber>
+            <GrandTotal>126</GrandTotal>
+        </Payment>
+    </Sale>
+</SaleDetails>

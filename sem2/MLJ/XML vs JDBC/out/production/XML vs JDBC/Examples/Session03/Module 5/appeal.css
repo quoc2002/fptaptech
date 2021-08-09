@@ -1,0 +1,473 @@
+appeal
+{
+
+border-style: solid
+border-width: 5px;
+border-color: blue;
+color:red;
+display: block
+}
+
+Sust_appeal,leave_Appeal
+{
+text-align:left;
+color:blue;
+display: block}
+
+
+criminal
+{
+
+display: list-item; list-style-type: square}
+
+civil
+{
+display: list-item; list-style-type: square}
+
+H11{
+position:absolute;
+top:50; left: 520;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+C1{
+position:absolute;
+top:50; left: 50;
+font-family: Helvetica;
+font-weight: bold;
+font-size: medium;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+H2{
+border-style: outset
+border-width: 5px;
+border-color: red;position:absolute;
+top:50; left: 620;}
+
+H42{
+position:absolute;
+top:160; left: 520;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+C2{
+font-family: Helvetica;
+font-weight: bold;
+font-size: medium;
+position:absolute;
+top:160; left: 50;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+H43{
+border-style: outset
+border-width: 5px;
+border-color: red;position:absolute;
+top:160; left: 620;}
+
+H3{
+border-style: outset
+border-width: 5px;
+border-color: red;
+position:absolute;
+top:300; left: 520;
+}
+
+C3{
+font-family: Helvetica;
+font-weight: bold;
+font-size: medium;
+position:absolute;
+top:300; left: 50;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+H31{
+border-style: outset
+border-width: 5px;
+border-color: red;
+position:absolute;
+top:410; left: 520;
+}
+
+C4{
+font-family: Helvetica;
+font-weight: bold;
+font-size: medium;
+position:absolute;
+top:410; left: 50;
+border-style: outset
+border-width: 5px;
+border-color: red;}
+
+H4{
+border-style: outset
+border-width: 5px;
+border-color: red;position:absolute;
+top:300; left: 620;}
+
+H32{
+border-style: outset
+border-width: 5px;
+border-color: red;position:absolute;
+top:410; left: 620;}
+
+
+H12{
+position:absolute;
+top:80; left:70;
+}
+
+H13{
+
+position:absolute;
+top:100; left:70; 
+}
+H14{
+top:120; left:70; 
+position:absolute;
+}
+
+H15{
+
+top:140; left:70; 
+position:absolute;
+}
+
+H17{
+
+position:absolute;
+top:330; left:70;
+}
+
+H18{
+
+position:absolute;
+top:350; left:70; 
+}
+H19{
+
+top:370; left:70; 
+position:absolute;
+}
+
+H20{
+
+top:390; left:70; 
+position:absolute;
+}
+
+
+H21{
+
+position:absolute;
+top:190; left:70;
+}
+
+H22{
+
+position:absolute;
+top:210; left:70; 
+}
+H23{
+
+top:230; left:70; 
+position:absolute;
+}
+
+H24{
+
+top:250; left:70; 
+position:absolute;
+}
+
+H25{
+
+position:absolute;
+top:440; left:70;
+}
+
+H26{
+
+position:absolute;
+top:460; left:70; 
+}
+H27{
+
+top:480; left:70; 
+position:absolute;
+}
+
+H28{
+
+top:500; left:70; 
+position:absolute;
+}
+
+H16{
+top:25; left:70; 
+border-right:thick double black;
+padding-right: 5pt;
+font-family: Helvetica;
+font-style: bold;
+font-size: medium;
+position:absolute;
+}
+
+H56{
+top:1; left: 150;
+color:black;
+font-family: Helvetica;
+font-style: bold;
+font-size: large;
+position:absolute;
+}
+
+H46{
+border-right:thick double black;
+padding-right: 76pt;
+top:270; left:70; 
+font-family: Helvetica;
+font-style: bold;
+font-size: medium;
+position:absolute;
+}
+
+T11{
+border-right:thick double black;
+border-left:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+position: absolute;
+top:80;	left:500;}
+
+T12{position: absolute;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+border-left:thick double black;
+top:100;	left:500;
+}
+T13{position: absolute;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+border-left:thick double black;
+top:120;	left:500;}
+
+T14{position: absolute;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+border-left:thick double black;
+top:140;	left:500;}
+
+T51{position: absolute;
+border-right:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+border-left:thick double black;
+top:80;left:600;}
+
+T52{position: absolute;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+border-left:thick double black;
+top:100;left:600;}
+
+T53{position: absolute;
+border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:120;left:600;}
+
+T54{position: absolute;
+border-left:thick double black;
+border-right:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+top:140;left:600;}
+
+T21{position: absolute;
+border-left:thick double black;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:190;left:500;}
+
+T22{position: absolute;
+border-left:thick double black;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:210;left:500;}
+
+T23{position: absolute;
+border-left:thick double black;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:230;left:500;}
+
+T24{position: absolute;
+border-left:thick double black;
+border-right:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:250;left:500;}
+
+T61{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+top:190;left:600;}
+
+T62{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:210;left:600;}
+
+T63{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-left: 46pt;
+padding-right: 20pt;
+top:230;left:600;}
+
+T64{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+top:250;left:600;}
+
+T31{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:330;left:500;}
+
+T32{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:350;left:500;}
+
+T33{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:370;left:500;}
+
+T34{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:390;left:500;}
+
+T71{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:330;left:600;}
+
+T72{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:350;left:600;}
+
+T73{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:370;left:600;}
+
+T74{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:390;left:600;}
+
+T41{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:440;left:500;}
+
+T42{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:460;left:500;}
+
+T43{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:480;left:500;}
+
+T44{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 26pt;
+top:500;left:500;}
+
+T81{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+top:440;left:600;}
+
+T82{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:460;left:600;}
+
+T83{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 46pt;
+padding-left: 20pt;
+top:480;left:600;}
+
+T84{position: absolute;border-right:thick double black;
+border-left:thick double black;
+padding-right: 40pt;
+padding-left: 20pt;
+top:500;left:600;}
+
+year{
+white-space: pre;
+color: yellow;
+font-family: Helvetica;
+font-weight: bold;
+font-size: large;
+display: list-item; list-style-type: square
+}
+
+No_of_filed
+{
+color:red;
+white-space: pre;
+display: list-item; list-style-type: square}
+
+No_of_listed
+{
+display: list-item; list-style-type: square}
+
+No_of_pending
+{
+color:red;
+display: list-item; list-style-type: square}
+
+No_of_dealt
+{
+display: list-item; list-style-type: square}

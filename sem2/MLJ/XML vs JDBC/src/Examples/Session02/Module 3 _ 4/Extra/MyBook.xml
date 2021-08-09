@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : lab2.xml
+    Created on : May 20, 2009, 1:43 PM
+    Author     : Duy Hoang
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE BOOK [
+    <!ELEMENT p (#PCDATA)>
+    <!ELEMENT BOOK ( OPENER, SUBTITLE?, INTRODUCTION?, (SECTION | PART)+)>
+    <!ELEMENT OPENER (TITLE_TEXT )*>
+    <!ELEMENT TITLE_TEXT (#PCDATA)>
+    <!ELEMENT SUBTITLE (#PCDATA)>
+    <!ELEMENT INTRODUCTION (HEADER, p+)+>
+    <!ELEMENT PART (HEADER, CHAPTER+)>
+    <!ELEMENT SECTION (HEADER, p+)>
+    <!ELEMENT HEADER (#PCDATA)>
+    <!ELEMENT CHAPTER (CHAPTER_NUMBER, CHAPTER_TEXT)>
+    <!ELEMENT CHAPTER_NUMBER (#PCDATA)>
+    <!ELEMENT CHAPTER_TEXT (p)+>
+]>
+<BOOK>
+    <OPENER>
+        <TITLE_TEXT>
+            TIEN PHONG BOOK
+        </TITLE_TEXT>
+    </OPENER>
+    <PART>
+        <HEADER>Welcome to my Book</HEADER>
+        <CHAPTER>
+            <CHAPTER_NUMBER>CHAPTER 1</CHAPTER_NUMBER>
+            <CHAPTER_TEXT>
+                <p>This is 1st line of Chapter 1</p>
+                <p>This is 2nd line of Chapter 1</p>
+                <p>This is 3rd line of Chapter 1</p>
+                <p>This is 4th line of Chapter 1</p>
+            </CHAPTER_TEXT>
+        </CHAPTER>
+    </PART>
+</BOOK>

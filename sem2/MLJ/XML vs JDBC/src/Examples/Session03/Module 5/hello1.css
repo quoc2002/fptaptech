@@ -1,0 +1,34 @@
+xsampdoc
+{
+	width: 2.5in;
+	height: 2in;
+	margin: 0.25in;
+	padding: 0.25in;
+	color: navy;
+	background-color:white;
+	display: block;
+	overflow: scroll;
+	border: solid blue;
+}
+
+greeting
+{   
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;font-size: 32pt;
+	width: 30em;
+	color: red
+}
+
+question
+{
+	display:block;
+	font-size: x-large;
+	color: black;
+}
+
+answer.ans
+{
+	display: block;
+	font-size: 20pt;
+	color: blue
+}

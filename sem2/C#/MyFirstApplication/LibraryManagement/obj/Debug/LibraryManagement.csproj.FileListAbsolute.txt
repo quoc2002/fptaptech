@@ -1,0 +1,7 @@
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\bin\Debug\LibraryManagement.exe
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\bin\Debug\LibraryManagement.pdb
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\obj\Debug\LibraryManagement.csproj.AssemblyReference.cache
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\obj\Debug\LibraryManagement.exe
+D:\fptaptech\sem2\MyFirstApplication\LibraryManagement\obj\Debug\LibraryManagement.pdb
