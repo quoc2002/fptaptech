@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="planets_if.xsl"?>
+<PLANETS>
+
+  <PLANET COLOR="RED">
+    <NAME>Mercury</NAME>
+    <MASS UNITS="(Earth = 1)">.0553</MASS>
+    <DAY UNITS="days">58.65</DAY>
+    <RADIUS UNITS="miles">1516</RADIUS>
+    <DENSITY UNITS="(Earth = 1)">.983</DENSITY>
+    <DISTANCE UNITS="million miles">43.4</DISTANCE><!--At perihelion-->
+  </PLANET>
+
+  <PLANET COLOR="WHITE">
+    <NAME>Venus</NAME>
+    <MASS UNITS="(Earth = 1)">.815</MASS>
+    <DAY UNITS="days">116.75</DAY>
+    <RADIUS UNITS="miles">3716</RADIUS>
+    <DENSITY UNITS="(Earth = 1)">.943</DENSITY>
+    <DISTANCE UNITS="million miles">66.8</DISTANCE><!--At perihelion-->
+  </PLANET>
+
+  <PLANET COLOR="BLUE">
+    <NAME>Earth</NAME>
+    <MASS UNITS="(Earth = 1)">1</MASS>
+    <DAY UNITS="days">1</DAY>
+    <RADIUS UNITS="miles">2107</RADIUS>
+    <DENSITY UNITS="(Earth = 1)">1</DENSITY>
+    <DISTANCE UNITS="million miles">128.4</DISTANCE><!--At perihelion-->
+  </PLANET>
+
+</PLANETS>
+
+

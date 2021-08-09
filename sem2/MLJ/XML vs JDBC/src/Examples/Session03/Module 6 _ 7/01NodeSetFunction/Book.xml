@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Book.xsl"?>
+<Catalog
+ xmlns="http://www.BookCatalog.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.BookCatalog.com Book.xsd"
+>
+  <Book>
+    <Author>Nguyen Khai</Author>
+    <Title>Mua lac</Title>
+    <Genre>Van hoc</Genre>
+    <Price>50000</Price>
+  </Book>
+</Catalog>

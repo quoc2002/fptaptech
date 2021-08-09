@@ -1,0 +1,7 @@
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\bin\Debug\IdentityStoreApp.exe.config
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\bin\Debug\IdentityStoreApp.exe
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\bin\Debug\IdentityStoreApp.pdb
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\obj\Debug\IdentityStoreApp.csproj.AssemblyReference.cache
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\obj\Debug\IdentityStoreApp.csproj.CoreCompileInputs.cache
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\obj\Debug\IdentityStoreApp.exe
+D:\fptaptech\sem2\C#\IdentityStoreApp\IdentityStoreApp\obj\Debug\IdentityStoreApp.pdb

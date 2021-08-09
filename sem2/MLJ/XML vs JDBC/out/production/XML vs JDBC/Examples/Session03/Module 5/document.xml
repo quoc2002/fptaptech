@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="document.css"?>
+<DOCUMENT>
+    <TITLE CLASS="RED">The Meditations           </TITLE>
+    <AUTHOR>By Marcus Aurelius</AUTHOR>
+    <SECTION id="100">Book One</SECTION>
+    <P>
+        From my grandfather, Verus, I learned good morals
+        and the government of my temper.
+    </P>
+    <P>
+        From the reputation and remembrance of my father,
+        modesty and a manly character.
+    </P>
+    <P>
+        From my mother, piety and beneficence, and abstinence,
+        not only from evil deeds, but even from evil
+        thoughts; and further, simplicity in my way of living,
+        far removed from the habits of the rich.
+    </P>
+    <P>
+        From my great-grandfather, not to have frequented
+        public schools, and to have had good teachers at home,
+        and to know that on such things a man should spend
+        freely.
+    </P>
+</DOCUMENT>
+
+

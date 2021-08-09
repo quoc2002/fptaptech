@@ -1,0 +1,32 @@
+
+<!ELEMENT census-record (date, address, person+)>
+<!ATTLIST census-record taker CDATA #REQUIRED>
+<!ENTITY add "Hanoi">
+<!ENTITY add1  SYSTEM "hn.txt">
+
+<!-- date the info was collected -->
+<!ELEMENT date (year, month, day)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ATTLIST date  language CDATA #FIXED "vn">
+
+<!-- address information -->
+<!ELEMENT address (street, city, county, country, postalcode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT county (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT postalcode (#PCDATA)>
+
+<!-- person information -->
+<!ELEMENT person (name, age, gender)>
+<!ELEMENT name (first, last, (junior | senior)?)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT junior EMPTY>
+<!ELEMENT senior EMPTY>
+<!ATTLIST person  pid     ID                   #REQUIRED>
+<!ATTLIST person  employed  (fulltime|parttime)  #IMPLIED>

@@ -1,0 +1,11 @@
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.pdb
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\EntityFramework.dll
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\EntityFramework.xml
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.CoreCompileInputs.cache
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.csproj.CopyComplete
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.pdb
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\MyCSharpApplication.cs
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\bin\Debug\MyFirstApplication.exe
+D:\fptaptech\sem2\MyFirstApplication\MyFirstApplication\obj\Debug\MyFirstApplication.exe

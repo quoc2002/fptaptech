@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<EventManager xmlns="http://www.creativemanagement.com"
+              xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance"
+              xsl:schemaLocation="http://www.creativemanagement.com EventManagement_schema.xsd">
+    <Event orderid="A556">
+        <Customer>TideWaterHouseCoopers</Customer>
+        <Venue>Hilton Bermingham</Venue>
+        <Date>2007-04-24</Date>
+        <NoOfGuests>500</NoOfGuests>
+        <ContactNumber>345676432</ContactNumber>
+        <Address>32 High Street, North Hidiands</Address>
+    </Event>
+
+    <Service category="AnnualConferences">
+        <TechDelivery>Multimedia Arrangement</TechDelivery>
+        <Entertainment>Media Personality</Entertainment>
+        <VenueBooking>Through TravelDesignated Service</VenueBooking>
+        <Theming>Emulate Movie Themed Dinner</Theming>
+    </Service>
+</EventManager>

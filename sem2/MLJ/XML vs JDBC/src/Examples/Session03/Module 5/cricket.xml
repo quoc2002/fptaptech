@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cricket.xsl"?>
+<cricket>
+	<player>	
+		<name>Sachin Tendukar</name>
+		<catches>250</catches>
+		<no_100>30</no_100>
+		<no_50>45</no_50>
+	</player>
+	<player>	
+		<name>Sunil Gavaskar</name>
+		<catches>200</catches>
+		<no_100>32</no_100>
+		<no_50>86</no_50>
+	</player>
+	<player>
+		<name>Steve Waugh</name>
+		<catches>208</catches>
+		<no_100>22</no_100>
+		<no_50>49</no_50>
+	</player>
+	<player>
+		<name>Vivian Richards</name>
+		<catches>276</catches>
+		<no_100>26</no_100>
+		<no_50>76</no_50>
+	</player>
+</cricket>

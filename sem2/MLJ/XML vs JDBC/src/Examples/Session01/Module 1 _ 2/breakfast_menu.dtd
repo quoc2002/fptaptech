@@ -1,0 +1,11 @@
+  <!ELEMENT breakfast_menu (food+)>
+  <!ELEMENT food (name,price,description,calories?)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT calories (#PCDATA)>
+  <!ENTITY en "Bread">
+  <!ATTLIST food id CDATA "01">
+  <!ATTLIST food type CDATA "fast">
+  <!ATTLIST food content SYSTEM "abcd.txt">
+  
